@@ -1,7 +1,7 @@
+import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { Container } from '../styles/GlobalStyles/styles'
 import Header from '../components/Header'
 
 export default function Home() {
@@ -15,9 +15,9 @@ export default function Home() {
         <title>Homes For Rent</title>
           </Head>
         <main className={styles.main}>
-            <Container>
+            <div className={styles.mainContainer}>
                 <Header />
-            </Container>
+            </div>
         </main>
     </>
   )
