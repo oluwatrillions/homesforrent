@@ -1,0 +1,75 @@
+*, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-container {
+    background-image: url('/images/bgimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    object-fit: cover;
+    position: relative;
+    vertical-align: middle;
+    height: 80vh;
+}
+
+.hero-text {
+    position: absolute;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 30%;
+    color: rgb(131, 126, 126);
+}
+
+.hero-text h2 {
+    font-size: 3em;
+}
+
+.hero-text h3 {
+    margin-top: .5em;
+    font-size: 1.5em;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+
+.input-box {
+    position: absolute;
+    top: 50%;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+input {
+    width: 25vw;
+    height: 3em;
+    padding: 0 .5em ;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    color: rgb(107, 100, 100);
+    background: rgb(255, 255, 255);
+    border-radius: .2em;
+}
+
+button {
+    width: 8vw;
+    height: 3em;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: rgb(53, 115, 130);
+    color: aliceblue;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: .2em;
+}
