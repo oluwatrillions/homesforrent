@@ -10,7 +10,7 @@ div {
     justify-content: space-between;
     align-items: center;
     width: 80vw;
-    background-color: antiquewhite;
+    background-color: rgb(238, 233, 227);
     height: 3em;
     padding: .5em 1em;
 }
@@ -36,6 +36,7 @@ div {
 .menu {
     width: 1.5em;
     height: 1.5em;
+    cursor: pointer;
 }
 
 a {
