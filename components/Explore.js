@@ -46,7 +46,7 @@ const data = [
 const Explore = () => {
     return (
         <div className='explore-cont'>
-            <h2>Explore our recently added properties</h2>
+            <h1>Explore our recently added properties</h1>
              <div className='recently-added'>
                 {
                         data.map((homes, index) => (

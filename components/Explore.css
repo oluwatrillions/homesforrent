@@ -5,16 +5,17 @@
     justify-content: center;
     gap: 1em;
     margin-top: 5vh;
+    margin-bottom: 3vh;
 }
 
 .explore-cont {
-    padding: 1em ;
+    
 }
 
-.explore-cont h2 {
+.explore-cont h1 {
     font-size: 1.7em;
     font-weight: 500;
     color: rgb(80, 70, 70);
-    margin-top: 1em;
+    margin: 1em 0 0 4vw;
 }
 

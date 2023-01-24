@@ -13,6 +13,7 @@
     object-fit: cover;
     vertical-align: middle;
     cursor: pointer;
+    border-radius: .2em;
 }
 
 .location-div {
@@ -21,6 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: .3em;
 }
 
 .location {
@@ -57,4 +59,10 @@
     font-weight: 100;
     font-size: 1.3em !important;
     color: rgb(80, 70, 70);
+}
+
+.city {
+    font-size: 1.3em !important;
+    color: rgb(80, 70, 70);
+    text-transform: capitalize;
 }

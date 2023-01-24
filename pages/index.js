@@ -19,7 +19,6 @@ export default function Home() {
           </Head>
         <main className={styles.main}>
             <div className={styles.mainContainer}>
-                  <Header />
                   <Hero />
                   <Explore />
             </div>
