@@ -3,9 +3,9 @@ import ExploreData from './ExploreData'
 
 const data = [
     {
-        image: '',
+        image: '/images/homes.png',
         address: '123 Main St',
-        city: 'indo',
+        city: ' indo',
         state: 'CA',
         zipcode: 12345,
         apartmentType: 'studio',
@@ -13,7 +13,7 @@ const data = [
     },
 
      {
-        image: '',
+        image: '/images/homes1.png',
         address: '456 Park Ave',
         city: 'illara',
         state: 'NY',
@@ -23,7 +23,7 @@ const data = [
     },
      
       {
-        image: '',
+        image: '/images/homes2.png',
         address: '789 Elm St',
         city: 'overland',
         state: 'TX',
@@ -33,7 +33,7 @@ const data = [
     },
       
      {
-        image: '',
+        image: '/images/homes3.png',
         address: '321 Oak St',
         city: 'convent',
         state: 'FL',
@@ -45,22 +45,26 @@ const data = [
 
 const Explore = () => {
     return (
-        <div>
+        <div className='explore-cont'>
             <h2>Explore our recently added properties</h2>
-          {
-              data.map((homes, index) => (
-                  <ExploreData
-                      address={homes.address}
-                      city={homes.city}
-                      image={homes.image}
-                      state={homes.state}
-                      price={homes.price}
-                      apartmentType={homes.apartmentType}
-                      zipcode={homes.zipcode}
-                      key={index}
-                  />
-              ))
-        }
+             <div className='recently-added'>
+                {
+                        data.map((homes, index) => (
+                        
+                        <ExploreData
+                            address={homes.address}
+                            city={homes.city}
+                            image={homes.image}
+                            state={homes.state}
+                            price={homes.price}
+                            apartmentType={homes.apartmentType}
+                            zipcode={homes.zipcode}
+                            key={index}
+                                />
+                            
+                    ))
+                }
+            </div>
     </div>
   )
 }

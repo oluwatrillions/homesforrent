@@ -1,24 +1,23 @@
 import React from 'react'
 
 
-
 const ExploreData = ({address, image, state, city, zipcode, apartmentType, price}) => {
   return (
       <div>
           <main>
-              <div>
+              <div className='imagery'>
                   <img src={image} alt='' />
               </div>
-              <div>
-                  <div>
-                    <h2>{address}</h2>
-                    <h2>{state}</h2>
-                    <h2>{city}</h2>
-                    <h3>{zipcode}</h3>
+              <div className='location-div'>
+                  <h2 className='address'>{address}, </h2>
+                  <div className='location'>
+                    <h2 className='state'>{state},</h2>
+                    <h2 className='city'>{city}</h2>
+                    <h2 className='zip'>{zipcode}</h2>
                   </div>
-                  <div>
-                      <h2>{apartmentType}</h2>
-                      <h2>{ price}</h2>
+                  <div className='price-type'>
+                      <h2 className='apartmentType'>{apartmentType}, </h2>
+                      <h2 className='price'>${ price}</h2>
                   </div>
               </div>
           </main>

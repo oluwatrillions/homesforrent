@@ -1,0 +1,60 @@
+*, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .imagery img{
+    width: 300px;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    object-fit: cover;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.location-div {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    gap: .2em;
+}
+
+.price-type {
+    display: flex;
+    gap: .5em;
+}
+
+.address {
+    font-weight: 100;
+    color: rgb(80, 70, 70);
+    font-size: 1.2em !important;
+}
+
+.location h2 {
+    font-weight: 100;
+    font-size: 1.3em;
+    color: rgb(80, 70, 70);
+}
+
+.price {
+    font-weight: 100;
+    font-size: 1.3em !important;
+    color: rgb(80, 70, 70);
+}
+
+.apartmentType {
+    font-weight: 100;
+    font-size: 1.3em !important;
+    color: rgb(80, 70, 70);
+}

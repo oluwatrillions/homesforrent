@@ -1,0 +1,20 @@
+.recently-added {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 5vh;
+}
+
+.explore-cont {
+    padding: 1em ;
+}
+
+.explore-cont h2 {
+    font-size: 1.7em;
+    font-weight: 500;
+    color: rgb(80, 70, 70);
+    margin-top: 1em;
+}
+
