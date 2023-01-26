@@ -3,8 +3,9 @@ import { HiMenuAlt2 } from "react-icons/hi"
 import Link from 'next/link'
 
 const Header = () => {
-  return (
-      <div className='headerContainer'>
+    return (
+      <div className='header-class'>
+         <div className='headerContainer'>
           < HiMenuAlt2 className='menu'/>
           <div>
               <img />
@@ -17,6 +18,7 @@ const Header = () => {
           <div>
               <Link href='/post'>Post A Property</Link>
           </div>
+        </div>
     </div>
   )
 }

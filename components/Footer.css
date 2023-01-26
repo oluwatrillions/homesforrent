@@ -4,7 +4,22 @@
     box-sizing: border-box;
 }
 
+
+
 .footer {
+    width: 100vw;
     display: flex;
-    
+    justify-content: center; 
+    padding-top: 5vh;
+    background: aliceblue;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.footer-container h4 {
+    font-weight: 100;
 }

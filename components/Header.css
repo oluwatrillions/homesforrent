@@ -5,6 +5,13 @@ div {
     box-sizing: border-box;
 }
 
+.header-class {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
 .headerContainer {
     display: flex !important;
     justify-content: space-between;
