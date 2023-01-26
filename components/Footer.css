@@ -17,9 +17,15 @@
 .footer-container {
     display: flex;
     justify-content: space-between;
-    width: 20vw;
+    width: 15vw;
 }
 
 .footer-container h4 {
     font-weight: 100;
+    font-size: .8em;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
 }
