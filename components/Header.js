@@ -12,8 +12,8 @@ const Header = () => {
               <h2 className='company-name'>Avila Homes & Rentals</h2>
           </div>
           <div className='navContainer'>
-              <Link href='/signUp'><h4>sign up /</h4></Link>
-              <Link href='/signIn'><h4>sign in</h4></Link>
+              <Link href='/signUp'>sign up /</Link>
+              <Link href='/signIn'>sign in</Link>
           </div>
           <div>
               <Link href='/post'>Post A Property</Link>

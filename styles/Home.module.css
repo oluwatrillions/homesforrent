@@ -15,4 +15,70 @@
     margin: 0 auto !important;
 }
 
+.loginContainer {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.loginBox{
+    width: 40vw;
+    height: 60vh;
+    background: rgb(126, 151, 177);    
+    display: flex;
+    border-radius: .2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    width: 31vw;
+}
+
+.formItem {
+    display: flex;
+    justify-content: space-between;
+    gap: .5em;
+}
+
+.textField {
+    background: aliceblue;
+}
+
+.input {
+    margin-top: 1.5em;
+    font-size: 1.2em;
+    color: rgb(39, 45, 49);
+}
+
+.loginBtn {
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.signUpContainer {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.signUpBox {
+    width: 40vw;
+    height: 80vh;
+    background: rgb(126, 151, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .2em;
+}
 
