@@ -16,7 +16,7 @@ const Header = () => {
               <Link href='/signIn'>sign in</Link>
           </div>
           <div>
-              <Link href='/post'>Post A Property</Link>
+              <Link href='/postProperty'>Post A Property</Link>
           </div>
         </div>
     </div>

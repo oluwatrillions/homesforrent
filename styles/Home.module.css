@@ -82,3 +82,23 @@
     border-radius: .2em;
 }
 
+.notFound {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.notFound h2 {
+    font-weight: 400;
+}
+
+.notFound h1 {
+    font-weight: 400;
+    color: rgb(87, 82, 82);
+}
+
